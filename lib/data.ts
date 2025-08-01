@@ -10,7 +10,7 @@ const products: Product[] = [
     price: 129.99,
     oldPrice: 149.99,
     images: [
-      "/placeholder.svg?key=nike1",
+      "/images/imagen-zapatillas-nike.jpg",
       "/placeholder.svg?key=nike2",
       "/placeholder.svg?key=nike3",
       "/placeholder.svg?key=nike4",
@@ -34,10 +34,10 @@ const products: Product[] = [
     description: "Camiseta deportiva de alto rendimiento con tecnología de absorción de humedad.",
     price: 45.99,
     images: [
-      "/placeholder.svg?key=adidas1",
+      "/images/imagen-camisetas-Adidas.jpg",
       "/placeholder.svg?key=adidas2",
       "/placeholder.svg?key=adidas3",
-      "/placeholder.svg?key=adidas4",
+      "/placeholder.svg?key=adidas4"
     ],
     category: "hombre",
     stock: 40,
@@ -58,10 +58,10 @@ const products: Product[] = [
     price: 65.99,
     oldPrice: 79.99,
     images: [
-      "/placeholder.svg?key=ua1",
+      "/images/imagen-leggins.jpg",
       "/placeholder.svg?key=ua2",
       "/placeholder.svg?key=ua3",
-      "/placeholder.svg?key=ua4",
+      "/placeholder.svg?key=ua4"
     ],
     category: "mujer",
     stock: 30,
@@ -81,7 +81,7 @@ const products: Product[] = [
     description: "Sudadera de alta calidad con capucha, perfecta para entrenamientos y uso casual.",
     price: 89.99,
     images: [
-      "/placeholder.svg?key=puma1",
+      "/images/imagen-sudadera.jpg",
       "/placeholder.svg?key=puma2",
       "/placeholder.svg?key=puma3",
       "/placeholder.svg?key=puma4",
@@ -106,7 +106,7 @@ const products: Product[] = [
     price: 35.99,
     oldPrice: 44.99,
     images: [
-      "/placeholder.svg?key=shorts1",
+      "/images/imagen-short.jpg",
       "/placeholder.svg?key=shorts2",
       "/placeholder.svg?key=shorts3",
       "/placeholder.svg?key=shorts4",
@@ -129,7 +129,7 @@ const products: Product[] = [
     description: "Top deportivo de soporte medio, ideal para yoga, pilates y entrenamientos.",
     price: 39.99,
     images: [
-      "/placeholder.svg?key=top1",
+      "/images/imagen-topdeportivo.jpg",
       "/placeholder.svg?key=top2",
       "/placeholder.svg?key=top3",
       "/placeholder.svg?key=top4",
@@ -152,7 +152,7 @@ const products: Product[] = [
     description: "Chaqueta cortavientos ligera con capucha, perfecta para entrenamientos al aire libre.",
     price: 79.99,
     images: [
-      "/placeholder.svg?key=jacket1",
+      "/images/imagen-chaqueta.jpg",
       "/placeholder.svg?key=jacket2",
       "/placeholder.svg?key=jacket3",
       "/placeholder.svg?key=jacket4",
@@ -176,7 +176,7 @@ const products: Product[] = [
     price: 55.99,
     oldPrice: 69.99,
     images: [
-      "/placeholder.svg?key=jogger1",
+      "/images/imagen-pantalon.jpg",
       "/placeholder.svg?key=jogger2",
       "/placeholder.svg?key=jogger3",
       "/placeholder.svg?key=jogger4",
@@ -200,7 +200,7 @@ const products: Product[] = [
     description: "Zapatillas de running premium con tecnología Boost para máximo retorno de energía.",
     price: 179.99,
     images: [
-      "/placeholder.svg?key=ultra1",
+      "/images/imagen-calzadidas.jpg",
       "/placeholder.svg?key=ultra2",
       "/placeholder.svg?key=ultra3",
       "/placeholder.svg?key=ultra4",
@@ -225,7 +225,7 @@ const products: Product[] = [
     price: 99.99,
     oldPrice: 129.99,
     images: [
-      "/placeholder.svg?key=set1",
+      "/images/imagen-conjunto.jpg",
       "/placeholder.svg?key=set2",
       "/placeholder.svg?key=set3",
       "/placeholder.svg?key=set4",
@@ -284,7 +284,7 @@ const categories: Category[] = [
   },
 ]
 
-// Datos de pedidos
+// Datos de pedidos con imágenes
 const orders: Order[] = [
   {
     id: "ORD-001",
@@ -298,6 +298,7 @@ const orders: Order[] = [
         name: "Zapatillas Nike Air Max 270",
         quantity: 1,
         price: 129.99,
+        image: "/images/imagen-zapatillas-nike.jpg",
       },
     ],
   },
@@ -313,12 +314,14 @@ const orders: Order[] = [
         name: "Camiseta Adidas Dri-FIT Hombre",
         quantity: 1,
         price: 45.99,
+        image: "/images/imagen-camisetas-Adidas.jpg",
       },
       {
         id: "3",
         name: "Leggings Under Armour Mujer",
         quantity: 1,
         price: 65.99,
+        image: "/images/imagen-leggins.jpg",
       },
     ],
   },
@@ -334,6 +337,7 @@ const orders: Order[] = [
         name: "Sudadera Puma Premium",
         quantity: 1,
         price: 89.99,
+        image: "/images/imagen-sudadera.jpg",
       },
     ],
   },
@@ -349,12 +353,14 @@ const orders: Order[] = [
         name: "Zapatillas Adidas Ultraboost 22",
         quantity: 1,
         price: 179.99,
+        image: "/images/imagen-calzadidas.jpg",
       },
       {
         id: "6",
         name: "Top Deportivo Adidas Mujer",
         quantity: 1,
         price: 39.99,
+        image: "/images/imagen-topdeportivo.jpg",
       },
     ],
   },
